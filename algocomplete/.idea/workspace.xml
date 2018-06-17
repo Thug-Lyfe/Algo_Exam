@@ -38,16 +38,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quicksort_poisson_gaussian_etc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quicksort_poisson_gaussian_etc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sorting/quicksort_poisson_gaussian_etc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="228" column="43" lean-forward="true" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
+            <state relative-caret-position="573">
+              <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="174" column="53" lean-forward="true" selection-start-line="174" selection-start-column="53" selection-end-line="174" selection-end-column="53" />
+              <folding>
+                <element signature="e#1236#1237#0" expanded="true" />
+                <element signature="e#1269#1270#0" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+                <element signature="e#1783#1784#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.3.1_binarytree.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/3.3.1_binarytree.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="StdRandom.java" pinned="false" current-in-tab="false">
@@ -95,6 +115,7 @@
       <find>cube root</find>
       <find>sqrt</find>
       <find>print()</find>
+      <find>Value</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -122,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/main/java/StdRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sorting/StdRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sorting/quicksort_poisson_gaussian_etc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -160,14 +182,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +248,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.quicksort_poisson_gaussian_etc">
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Searching.BinarySearchTree" />
+      <module name="algo-complete" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Nutsandbolts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aaa_test.Nutsandbolts" />
       <module name="algo-complete" />
@@ -259,17 +284,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.bubblesort" />
-      <module name="algocomplete" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="quicksort_poisson_gaussian_etc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.quicksort_poisson_gaussian_etc" />
@@ -332,19 +346,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.bubblesort" />
       <item itemvalue="Application.Squareroot" />
       <item itemvalue="Application.tasks" />
       <item itemvalue="Application.Nutsandbolts" />
       <item itemvalue="Application.quicksort_poisson_gaussian_etc" />
+      <item itemvalue="Application.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.quicksort_poisson_gaussian_etc" />
         <item itemvalue="Application.Nutsandbolts" />
         <item itemvalue="Application.tasks" />
         <item itemvalue="Application.Squareroot" />
-        <item itemvalue="Application.bubblesort" />
       </list>
     </recent_temporary>
   </component>
@@ -374,8 +388,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31431535" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31431535" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32987553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
@@ -726,10 +740,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Sorting/quicksort_poisson_gaussian_etc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="228" column="43" lean-forward="true" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
+        <state relative-caret-position="573">
+          <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/3.3.1_binarytree.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="174" column="53" lean-forward="true" selection-start-line="174" selection-start-column="53" selection-end-line="174" selection-end-column="53" />
+          <folding>
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
           </folding>
         </state>
       </provider>
