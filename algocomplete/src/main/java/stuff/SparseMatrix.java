@@ -1,4 +1,4 @@
-package application_queue;
+package stuff;
 
 public class SparseMatrix {
 
@@ -8,7 +8,7 @@ public class SparseMatrix {
     private SparseVector[] columns;
 
 
-    SparseMatrix(int rowSize, int columnSize) {
+    public SparseMatrix(int rowSize, int columnSize) {
         this.rowSize = rowSize;
         this.columnSize = columnSize;
 

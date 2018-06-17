@@ -2,12 +2,12 @@ package Sorting;
 
 
 
-import java.util.List;
+import stuff.StdRandom;
+
 import java.util.Random;
 
 public class quicksort_poisson_gaussian_etc {
     private static Random ran = new Random();
-    private static StdRandom Stdran = new StdRandom();
 
 
 
@@ -73,7 +73,7 @@ public class quicksort_poisson_gaussian_etc {
         // constant rate and independently of the time since the last event
         // see poisson_distribution.png for ex.
         for(int i = 0; i < arrayLength; i++) {
-            array[i] = Stdran.poisson(2);
+            array[i] = StdRandom.poisson(2);
         }
 
         return array;
@@ -85,7 +85,7 @@ public class quicksort_poisson_gaussian_etc {
         // The geometric distribution is a discrete distribution for n=0, 1, 2, ... having probability density function
         // aka. the next element has half as many entries as the last one. see geometric destribution_800.gif for ex.
         for(int i = 0; i < arrayLength; i++) {
-            array[i] = Stdran.geometric(0.3);
+            array[i] = StdRandom.geometric(0.3);
         }
 
         return array;

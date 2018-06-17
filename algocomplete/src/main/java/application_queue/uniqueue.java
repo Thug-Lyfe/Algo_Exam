@@ -1,5 +1,7 @@
 package application_queue;
 
+import stuff.Queue;
+
 import java.util.HashSet;
 import java.util.Iterator;
 

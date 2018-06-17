@@ -1,4 +1,6 @@
-package Sorting; /******************************************************************************
+package stuff;
+
+/******************************************************************************
  *  Compilation:  javac StdRandom.java
  *  Execution:    java StdRandom
  *  Dependencies: StdOut.java
@@ -10,27 +12,27 @@ package Sorting; /**************************************************************
  *
  *  %  java StdRandom 5
  *  seed = 1316600602069
- *  59 16.81826  true 8.83954  0 
- *  32 91.32098  true 9.11026  0 
- *  35 10.11874  true 8.95396  3 
- *  92 32.88401  true 8.87089  0 
- *  72 92.55791  true 9.46241  0 
+ *  59 16.81826  true 8.83954  0
+ *  32 91.32098  true 9.11026  0
+ *  35 10.11874  true 8.95396  3
+ *  92 32.88401  true 8.87089  0
+ *  72 92.55791  true 9.46241  0
  *
  *  % java StdRandom 5
  *  seed = 1316600616575
- *  96 60.17070  true 8.72821  0 
- *  79 32.01607  true 8.58159  0 
- *  81 59.49065  true 9.10423  1 
- *  96 51.65818  true 9.02102  0 
- *  99 17.55771  true 8.99762  0 
+ *  96 60.17070  true 8.72821  0
+ *  79 32.01607  true 8.58159  0
+ *  81 59.49065  true 9.10423  1
+ *  96 51.65818  true 9.02102  0
+ *  99 17.55771  true 8.99762  0
  *
  *  % java StdRandom 5 1316600616575
  *  seed = 1316600616575
- *  96 60.17070  true 8.72821  0 
- *  79 32.01607  true 8.58159  0 
- *  81 59.49065  true 9.10423  1 
- *  96 51.65818  true 9.02102  0 
- *  99 17.55771  true 8.99762  0 
+ *  96 60.17070  true 8.72821  0
+ *  79 32.01607  true 8.58159  0
+ *  81 59.49065  true 9.10423  1
+ *  96 51.65818  true 9.02102  0
+ *  99 17.55771  true 8.99762  0
  *
  *
  *  Remark
@@ -45,11 +47,12 @@ package Sorting; /**************************************************************
  *
  ******************************************************************************/
 
+
 import java.util.Random;
 
 /**
  *  The {@code StdRandom} class provides static methods for generating
- *  random number from various discrete and continuous distributions, 
+ *  random number from various discrete and continuous distributions,
  *  including uniform, Bernoulli, geometric, Gaussian, exponential, Pareto,
  *  Poisson, and Cauchy. It also provides method for shuffling an
  *  array or subarray and generating random permutations.
@@ -82,7 +85,7 @@ public final class StdRandom {
     }
 
     // don't instantiate
-    public StdRandom() { }
+    private StdRandom() { }
 
     /**
      * Sets the seed of the pseudo-random number generator.
@@ -117,7 +120,7 @@ public final class StdRandom {
 
     /**
      * Returns a random integer uniformly in [0, n).
-     * 
+     *
      * @param n number of possible integers
      * @return a random integer uniformly between 0 (inclusive) and {@code n} (exclusive)
      * @throws IllegalArgumentException if {@code n <= 0}
@@ -130,7 +133,7 @@ public final class StdRandom {
 
     /**
      * Returns a random long integer uniformly in [0, n).
-     * 
+     *
      * @param n number of possible {@code long} integers
      * @return a random long integer uniformly between 0 (inclusive) and {@code n} (exclusive)
      * @throws IllegalArgumentException if {@code n <= 0}
@@ -162,7 +165,7 @@ public final class StdRandom {
 
     /**
      * Returns a random real number uniformly in [0, 1).
-     * 
+     *
      * @return     a random real number uniformly in [0, 1)
      * @deprecated Replaced by {@link #uniform()}.
      */
@@ -173,7 +176,7 @@ public final class StdRandom {
 
     /**
      * Returns a random integer uniformly in [a, b).
-     * 
+     *
      * @param  a the left endpoint
      * @param  b the right endpoint
      * @return a random integer uniformly in [a, b)
@@ -189,7 +192,7 @@ public final class StdRandom {
 
     /**
      * Returns a random real number uniformly in [a, b).
-     * 
+     *
      * @param  a the left endpoint
      * @param  b the right endpoint
      * @return a random real number uniformly in [a, b)
@@ -220,7 +223,7 @@ public final class StdRandom {
     /**
      * Returns a random boolean from a Bernoulli distribution with success
      * probability 1/2.
-     * 
+     *
      * @return {@code true} with probability 1/2 and
      *         {@code false} with probability 1/2
      */
@@ -230,7 +233,7 @@ public final class StdRandom {
 
     /**
      * Returns a random real number from a standard Gaussian distribution.
-     * 
+     *
      * @return a random real number from a standard Gaussian distribution
      *         (mean 0 and standard deviation 1).
      */
@@ -251,7 +254,7 @@ public final class StdRandom {
     /**
      * Returns a random real number from a Gaussian distribution with mean &mu;
      * and standard deviation &sigma;.
-     * 
+     *
      * @param  mu the mean
      * @param  sigma the standard deviation
      * @return a real number distributed according to the Gaussian distribution
@@ -266,7 +269,7 @@ public final class StdRandom {
      * probability <em>p</em>.
      * The integer represents the number of independent trials
      * before the first success.
-     * 
+     *
      * @param  p the parameter of the geometric distribution
      * @return a random integer from a geometric distribution with success
      *         probability {@code p}; or {@code Integer.MAX_VALUE} if
@@ -415,7 +418,7 @@ public final class StdRandom {
     /**
      * Returns a random real number from an exponential distribution
      * with rate &lambda;.
-     * 
+     *
      * @param  lambda the rate of the exponential distribution
      * @return a random real number from an exponential distribution with
      *         rate {@code lambda}
@@ -503,7 +506,7 @@ public final class StdRandom {
      * @param  hi the right endpoint (exclusive)
      * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
-     * 
+     *
      */
     public static void shuffle(Object[] a, int lo, int hi) {
         validateNotNull(a);
@@ -622,7 +625,7 @@ public final class StdRandom {
      *
      * @param args the command-line arguments
      */
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
         if (args.length == 2) StdRandom.setSeed(Long.parseLong(args[1]));
         double[] probabilities = { 0.5, 0.3, 0.1, 0.1 };
@@ -643,6 +646,30 @@ public final class StdRandom {
                 StdOut.print(s);
             StdOut.println();
         }
-    }*/
+    }
 
 }
+
+/******************************************************************************
+ *  Copyright 2002-2018, Robert Sedgewick and Kevin Wayne.
+ *
+ *  This file is part of algs4.jar, which accompanies the textbook
+ *
+ *      Algorithms, 4th edition by Robert Sedgewick and Kevin Wayne,
+ *      Addison-Wesley Professional, 2011, ISBN 0-321-57351-X.
+ *      http://algs4.cs.princeton.edu
+ *
+ *
+ *  algs4.jar is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  algs4.jar is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
+ ******************************************************************************/

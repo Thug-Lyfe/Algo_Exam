@@ -1,4 +1,4 @@
-package application_queue;
+package stuff;
 
 import java.util.Arrays;
 

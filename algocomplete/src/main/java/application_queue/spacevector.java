@@ -1,11 +1,12 @@
 package application_queue;
 
-import Sorting.StdRandom;
+import stuff.SparseMatrix;
+import stuff.SparseVector;
+import stuff.StdRandom;
 
 public class spacevector {
 
     public void makeArrays(){
-        StdRandom ran = new StdRandom();
         int size = 1000;
         //2 matrixes and 2 vectors med normale arrays
         double[][] arrayMatrix0 = new double[size][size];
