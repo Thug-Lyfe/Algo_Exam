@@ -30,27 +30,6 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="In.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stuff/In.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stuff/Bag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LazyPrimMST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/minimum_spanning_tree/LazyPrimMST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,14 +84,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webCrawler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webCrawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/directed/webCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="369">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reverse_deleting_algorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/minimum_spanning_tree/reverse_deleting_algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="66" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -169,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/StdRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/StdRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sorting/StdRandom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/application_queue/uniqueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/application_queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/application_queue/SpaseVector.java" />
@@ -190,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/main/java/minimum_spanning_tree/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/stuff/SparseMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/directed/webCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/minimum_spanning_tree/reverse_deleting_algorithm.java" />
       </list>
     </option>
   </component>
@@ -235,7 +233,55 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="directed" type="462c0819:PsiDirectoryNode" />
+              <item name="minimum_spanning_tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Searching" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting_and_searching" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swarms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="undirectedgraphs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
@@ -296,18 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.webCrawler">
-    <configuration name="EdgeWeightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="undirectedgraphs.EdgeWeightedGraph" />
-      <module name="algo-complete" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="undirectedgraphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.reverse_deleting_algorithm">
     <configuration name="KruskalMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minimum_spanning_tree.KruskalMST" />
       <module name="algo-complete" />
@@ -343,6 +378,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="reverse_deleting_algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minimum_spanning_tree.reverse_deleting_algorithm" />
+      <module name="algo-complete" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="minimum_spanning_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="webCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="directed.webCrawler" />
@@ -394,19 +440,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.EdgeWeightedGraph" />
       <item itemvalue="Application.LazyPrimMST" />
       <item itemvalue="Application.KruskalMST" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.webCrawler" />
+      <item itemvalue="Application.reverse_deleting_algorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverse_deleting_algorithm" />
         <item itemvalue="Application.webCrawler" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.KruskalMST" />
         <item itemvalue="Application.LazyPrimMST" />
-        <item itemvalue="Application.EdgeWeightedGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -436,11 +482,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31431535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31431535" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32987553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,13 +513,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures_and_sorting/assignment1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aaa_test/Dutchflag.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/datastructures_and_sorting/linked_list.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -615,19 +654,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/3.3.1_binarytree.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="174" column="53" selection-start-line="174" selection-start-column="53" selection-end-line="174" selection-end-column="53" />
-          <folding>
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application_queue/uniqueue.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -862,11 +888,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/directed/webCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="369">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Searching/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="66" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/minimum_spanning_tree/reverse_deleting_algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
         </state>
       </provider>
     </entry>
