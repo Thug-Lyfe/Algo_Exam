@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spacevector.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spacevector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/application_queue/spacevector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="-612">
               <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reverse_deleting_algorithm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reverse_deleting_algorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/minimum_spanning_tree/reverse_deleting_algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="203" column="109" selection-start-line="203" selection-start-column="109" selection-end-line="203" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -192,7 +192,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-39" />
+    <option name="x" value="132" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
@@ -226,6 +226,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application_queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures_and_sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algocomplete" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="directed" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algocomplete" type="b2602c69:ProjectViewProjectNode" />
@@ -471,7 +495,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -482,11 +505,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31431535" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31431535" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32987553" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -843,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application_queue/spacevector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/minimum_spanning_tree/LazyPrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1617">
@@ -905,8 +918,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/minimum_spanning_tree/reverse_deleting_algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="203" column="109" selection-start-line="203" selection-start-column="109" selection-end-line="203" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application_queue/spacevector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
