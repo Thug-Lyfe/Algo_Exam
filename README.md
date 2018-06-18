@@ -11,7 +11,9 @@ https://sinon.org/algorithms/
 | Searching | Hash tables Symbol table applications | Hash Table: https://www.youtube.com/watch?v=shs0KM3wKv8 <br> more hash table: https://www.youtube.com/watch?v=KyUTuwz_b7Q |
 | Searching | Swarms | Hive mind vizualization: https://github.com/0la0/psoViz <br> |
 | Undirected graphs | Graphs, Depth first, breadth first, connection | depth & breath first: https://www.youtube.com/watch?v=zaBhtODEL0w |
-| Directed graphs | Digraphs, Cycles, connection, reachability | digraph: https://www.youtube.com/watch?v=dZvgqTDS2oE <br> |
+| Directed graphs | Digraphs, Cycles, connection, reachability | digraph: https://www.youtube.com/watch?v=dZvgqTDS2oE <br> more diagraphs: https://www.coursera.org/learn/algorithms-part2/lecture/QKBnh/introduction-to-digraphs <br>  |
+| Graphs and trees | Minimum spanning trees | prim's algorithm (extended breath first, on a weigted graph): https://www.youtube.com/watch?v=YyLaRffCdk4 <br> Kruskal's algorithm (extended depth first, on a weighted graph): https://www.youtube.com/watch?v=71UQH7Pr9kU |
+| Graphs and paths | Shortest paths, A* algorithm | A* (extended breath first, on a weighted graph): https://www.youtube.com/watch?v=ySN5Wnu88nE <br> Dijkstra's algorithm (extended breath first, on a weighted graph): https://www.youtube.com/watch?v=GazC3A4OQTE |
 
 | method | average | best | worst |
 | --- | --- | --- | --- |
