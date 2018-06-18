@@ -9,7 +9,7 @@ https://sinon.org/algorithms/
 | Sorting and searching | Priority queues, Symbol tables | priority Q(+deque): https://www.youtube.com/watch?v=fKEyQcrZX2g <br>  |
 | Searching | Search trees | trees in general: https://www.youtube.com/watch?v=oSWTXtMglKE |
 | Searching | Hash tables Symbol table applications | Hash Table: https://www.youtube.com/watch?v=shs0KM3wKv8 <br> more hash table: https://www.youtube.com/watch?v=KyUTuwz_b7Q |
-| Searching | Swarms | Hive mind vizualization: https://github.com/0la0/psoViz <br> |
+| Searching | Swarms | Hive mind vizualization: https://github.com/0la0/psoViz <br> https://www.youtube.com/watch?v=sB1n9a9yxJk |
 | Undirected graphs | Graphs, Depth first, breadth first, connection | depth & breath first: https://www.youtube.com/watch?v=zaBhtODEL0w |
 | Directed graphs | Digraphs, Cycles, connection, reachability | digraph: https://www.youtube.com/watch?v=dZvgqTDS2oE <br> more diagraphs: https://www.coursera.org/learn/algorithms-part2/lecture/QKBnh/introduction-to-digraphs <br>  |
 | Graphs and trees | Minimum spanning trees | prim's algorithm (extended breath first, on a weigted graph): https://www.youtube.com/watch?v=YyLaRffCdk4 <br> Kruskal's algorithm (extended depth first, on a weighted graph): https://www.youtube.com/watch?v=71UQH7Pr9kU |
